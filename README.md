@@ -1,4 +1,4 @@
-## Small Business Network Lab (Cisco Packet Tracer)
+### Small Business Network Lab (Cisco Packet Tracer)
 
 This project simulates a real-world small business network using Cisco Packet Tracer. It includes VLAN segmentation, inter-VLAN routing, DHCP, static IP assignments, router-on-a-stick topology, and ACLs to restrict server access.
 
