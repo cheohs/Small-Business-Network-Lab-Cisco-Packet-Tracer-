@@ -2,7 +2,7 @@
 
 This project simulates a real-world small business network using Cisco Packet Tracer. It includes VLAN segmentation, inter-VLAN routing, DHCP, static IP assignments, router-on-a-stick topology, and ACLs to restrict server access.
 
-[Small Business Network Topology](./Screenshot%202025-08-01%20130853.png)
+![Small Business Network Topology](https://github.com/user-attachments/assets/1466f3a1-9ca9-43b8-ae28-7fa686a089cf)
 
 ---
 
