@@ -281,9 +281,11 @@ These would be restricted using extended ACLs, firewalls, or security groups dep
 Here’s an example showing two PCs — Tech PC 1 and Sales PC 1 — using the ipconfig command to verify their DHCP-assigned IP addresses. Only two are shown here as examples, but all VLANs were successfully assigned addresses from their correct DHCP pools.
 
 Tech PC 1 IP Configuration:
+
 ![Tech PC 1 IP Configuration](https://github.com/user-attachments/assets/6c38e075-0a19-4bab-9904-c91997c228cd)
 
 Sales PC 1 IP Configuration:
+
 ![Sales PC 1 IP Configuration](https://github.com/user-attachments/assets/e18d7f74-8c0f-4177-8637-01233366091c)
 
 Successfully received IP addresses via DHCP:
@@ -298,9 +300,11 @@ This confirms DHCP is correctly configured per VLAN.
 Here’s an example showing Admin PC 1 and Sales PC 1 successfully pinging Tech PC 1, using the ping command. Only two devices are shown here as examples, but devices across VLANs are able to communicate as expected through inter-VLAN routing.
 
 Admin PC 1 successfully pinging Tech PC 1:
+
 ![Adminpingtech](https://github.com/user-attachments/assets/5afc3c6c-e1f7-49a0-a880-d830bd74f559)
 
 Sales PC 1 successfully pinging Tech PC 1:
+
 ![Salespingtech](https://github.com/user-attachments/assets/28c5b0e0-4717-4fce-bbe1-94854fe777db)
 
 Successful inter-VLAN communication:
@@ -314,17 +318,21 @@ This confirms that inter-VLAN routing is working correctly through the router-on
 Here’s an example showing one PC from each VLAN successfully pinging the Shared Server using the ping command. This demonstrates that the server is reachable from all departments.
 
 Admin PC 1 successfully pinging Shared Server:
+
 ![Adminpingsharedserver](https://github.com/user-attachments/assets/ae6f676c-dcc5-4781-a316-649b373d113c)
 
 Tech PC 1 successfully pinging Shared Server:
+
 ![Techpingsharedserver](https://github.com/user-attachments/assets/27d97373-ff18-44f5-86cf-cbb729de1ef0)
 
 Sales PC 1 successfully pinging Shared Server:
+
 ![Salespingsharedserver](https://github.com/user-attachments/assets/5216eb2b-2a8e-40b8-8616-00b3f6c8ceb0)
 
 In addition to ping tests, HTTP access was verified. PCs across VLANs were able to open the server’s hosted webpage using a browser.
 
 Shared Server Webpage (viewed from Admin PC 1):
+
 ![Adminsharedserverweb](https://github.com/user-attachments/assets/33b8b8b5-4f5a-46e0-ba9a-b110ea9246eb)
 
 Successful server access:
@@ -340,12 +348,15 @@ This confirms that the Shared Server is accessible and its web services are func
 Here’s an example showing Tech PC 1 successfully pinging the Tech Server, while Admin PC 1 and Sales PC 1 are blocked as expected. This confirms that the extended ACL is properly restricting access to the Tech Server based on VLAN.
 
 Tech PC 1 pinging Tech Server (allowed):
+
 ![TechpingTechserver](https://github.com/user-attachments/assets/482dee48-e98e-4196-b3ac-842e583fc689)
 
 Admin PC 1 pinging Tech Server (denied):
+
 ![AdminpingTechserver](https://github.com/user-attachments/assets/8bd7a8eb-46d6-492a-8664-cab137f631f3)
 
 Sales PC 1 pinging Tech Server (denied):
+
 ![SalespingTechserver](https://github.com/user-attachments/assets/c3cd44ca-26ff-40cc-9c66-add228ef06c6)
 
 Tech Server ACL Results:
